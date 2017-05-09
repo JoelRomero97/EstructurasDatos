@@ -1,0 +1,11 @@
+10
+11111 Papel Regio 50.45 4
+11112 Hojas Scribe 27.89 7
+22223 Chela Heineken 17.90 100
+33334 Refresco Pepsi 9.50 20
+44445 Barritas Marinela 11.30 9
+55556 Tenis Nike 1050.0 3
+66667 iPhone Apple 15900.0 10
+77778 Toreadas Barcel 9.70 20
+88889 Runners Barcel 8.9 4
+99991 Chela XX 18.0 200
