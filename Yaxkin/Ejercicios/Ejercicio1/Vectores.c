@@ -4,6 +4,17 @@
 void mult (int a[4],int x);
 void suma(int a[4],int b[]);
 
+////////////////////////////////////////////////////////////////
+////							Vectores.c					////
+////														////
+////														////
+//// Programa que realiza la suma de 2 vectores definidos 	////
+//// y la multiplicación por un escalar definidos.			////
+////														////
+////														////
+//// Autor: Romero Gamarra Joel Mauricio					////
+////////////////////////////////////////////////////////////////
+
 int main() {
 	int resp,x=4;
 	int a[4]={2,4,6,10};
