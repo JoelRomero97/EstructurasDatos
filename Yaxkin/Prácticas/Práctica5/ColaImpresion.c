@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "cola.h"
+#include "cola.c"
 
-////////////////////////////////////////////////////////////////////////
-////                         ColaImpresion.c						////
-////																////
-////																////
-//// Se simula una cola de impresión, donde contamos con una cola   ////
-//// de prioridad, en la que, la prioridad más alta se inserta      ////
-//// al frente de la cola, y si ya hay esa prioridad, se forma en	////
-//// el lugar indicado.												////
-////																////
-////																////
-//// Autor: Romero Gamarra Joel Mauricio                    		////
-////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+////								ColaImpresion.c 								////
+////																				////
+////																				////
+//// Se simula una cola de impresión, donde contamos con una cola de prioridad que 	////
+//// acomoda los trabajos dependiendo la prioridad de quien lo envíe, para esto, 	////
+//// pedimos el título del trabajo, quien lo envia y la prioridad del mismo.		////
+////																				////
+////																				////
+//// Autor: Romero Gamarra Joel Mauricio											////
+////////////////////////////////////////////////////////////////////////////////////////
 
 int main(int argc, char *argv[]) 
 {
@@ -65,6 +64,3 @@ int main(int argc, char *argv[])
 	system("PAUSE>nul");
 	return 0;
 }
-
-
-

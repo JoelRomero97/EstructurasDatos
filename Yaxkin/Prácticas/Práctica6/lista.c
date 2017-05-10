@@ -139,4 +139,3 @@ void vaciarLista(LISTA * lista)
 	while(lista->tamanio>0)
 		eliminar(lista,1);
 }
-

@@ -1,19 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "pila.h"
-
-/////////////////////////////////////////////////////////////////////////
-////                         Compilador.c                            ////
-////																 ////
-////																 ////
-//// Este programa analiza el correcto balanceo de los paréntesis    ////
-//// con ayuda de el manejo de archivos, previamente seleccionados.  ////
-////																 ////
-////																 ////
-//// Autor: Romero Gamarra Joel Mauricio                    		 ////
-/////////////////////////////////////////////////////////////////////////
+#include "pila.c"
 
 void leer(FILE *pt);
+
+////////////////////////////////////////////////////////////////////////////////////////
+////								Compilador.c 									////
+////																				////
+////																				////
+//// Este programa analiza el correcto balanceo de los paréntesis con ayuda del 	////
+//// manejo de archivos, de donde se obtienen los paréntesis a analizar, todos los	////
+//// demás símbolos no los toma en cuenta el programa, más que paréntesis, llaves	////
+//// y corchetes. Nos indica el tipo de error que tenemos y en que línea está.		////
+//// Modificar archivos "1.txt", "2.txt", "3.txt" y "4.txt".						////
+////																				////
+////																				////
+//// Autor: Romero Gamarra Joel Mauricio											////
+////////////////////////////////////////////////////////////////////////////////////////
 
 int main() {
 	int resp;

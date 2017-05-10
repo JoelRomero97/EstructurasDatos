@@ -1,24 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "pila.h"
+#include "pila.c"
 #define TAM 100
-
-/////////////////////////////////////////////////////////////////////////
-////                         Posfija.c                               ////
-////																 ////
-////																 ////
-//// Este programa evalúa una expresión aritmética tomada de un      ////
-//// archivo y, convirtiendo en primera instancia de infija a        ////
-//// posfija y posteriormente mostrando el resultado.	 			 ////
-////																 ////
-////																 ////
-//// Autor: Romero Gamarra Joel Mauricio                    		 ////
-/////////////////////////////////////////////////////////////////////////
 
 int prec_opr(char L,char G);
 void conversion(char *inf, char *pos);
 void calculo(char * pos);
+
+////////////////////////////////////////////////////////////////////////////////////////
+////									Posfija.c 									////
+////																				////
+////																				////
+//// Evaluamos una expresión aritmética que contiene paréntesis, es decir que 		////
+//// modifica la precedencia de los operadores, convirtiéndola a posfija y con 		////
+//// ayuda de la estructura pila, la evaluamos, mostrando el resultado al usuario.	////
+//// Modificar archivo "Oper.txt".													////
+////																				////
+////																				////
+//// Autor: Romero Gamarra Joel Mauricio											////
+////////////////////////////////////////////////////////////////////////////////////////
 
 int main() 
 {

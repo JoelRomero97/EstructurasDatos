@@ -2,18 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-////////////////////////////////////////////////////////////////////////
-////                         Recursividad.c							////
-////																////
-////																////
-//// En el siguiente programa, practicamos la recursividad para     ////
-//// la solución de distintos problemas propuestos, algunos con     ////
-//// solución iterativa, y otros no, como son las Torres de Hanoi.	////
-////																////
-////																////
-//// Autor: Romero Gamarra Joel Mauricio                    		////
-////////////////////////////////////////////////////////////////////////
-
 long facr(int N);
 long faci(int N);
 long fibr(int N);
@@ -26,6 +14,18 @@ int t(char *c,int I,int F);
 int f(char *c,int I, int F);
 int buscarsigno(char *c,int I,int F,char a);
 
+////////////////////////////////////////////////////////////////////////////////////////
+////								Recursividad.c 									////
+////																				////
+////																				////
+//// Menú de programas recursivos e iterativos, en el que el usuario selecciona		////
+//// entre los programas a realizar recursivos el factorial de un número, las Torres////
+//// de Hanoi, conocer una posición de la serie fibonacci y evaluar si una 			////
+//// expresión corresponde a la gramáica.											////
+////																				////
+////																				////
+//// Autor: Romero Gamarra Joel Mauricio											////
+////////////////////////////////////////////////////////////////////////////////////////
 
 int main(){
 	int a, resp, N, I, F, p, x;

@@ -2,32 +2,30 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
-#include "cola.h"
+#include "cola.c"
 #include <windows.h>
 #include <time.h>
 #define Y_INI 5
 #define Y_LIT 25
-
-////////////////////////////////////////////////////////////////////////
-////                     Lluvia de Letras.c							////
-////																////
-////																////
-//// Lluvia de letras es un juego en el que las letras van cayendo  ////
-//// de la parte superior de la pantalla hasta abajo, donde el      ////
-//// usuario debe presionar la letra correspondiente antes de llegar////
-//// al final de la pantalla o perderá una vida, se cuenta con 3    ////
-//// vidas y 3 niveles de difcultad, donde cambia la velocidad con  ////
-//// la que caen las letras.										////
-////																////
-////																////
-//// Autor: Romero Gamarra Joel Mauricio                    		////
-////////////////////////////////////////////////////////////////////////
 
 cola gen_letras(int num);
 void marco(int vidas, int score, int nivel);
 void gotoxy(int x,int y);
 void game();
 
+////////////////////////////////////////////////////////////////////////////////////////
+////								LluviaLetras.c 									////
+////																				////
+////																				////
+//// Lluvia de letras es un juego en el que las letras van cayendo desde la parte	////
+//// superior de la pantalla hasta abajo, donde el usuario debe presionar la tecla	////
+//// corresponiente en el menor tiempo posible antes de que la letra caiga por 		////
+//// completo, dandole un puntaje mayor, se cuenta con 3 vidas y cuando la letra 	////
+//// cae, se pierde 1 vida, además, tiene 3 niveles de dificultad.					////
+////																				////
+////																				////
+//// Autor: Romero Gamarra Joel Mauricio											////
+////////////////////////////////////////////////////////////////////////////////////////
 
 int main(int argc, char *argv[]) 
 {
